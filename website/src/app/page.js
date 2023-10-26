@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import Nav from '@/components/nav'
-import Foot from '@/components/foot'
+import Nav from './components/nav'
+import Foot from './components/foot'
 
 export default function Home() {
   return (
