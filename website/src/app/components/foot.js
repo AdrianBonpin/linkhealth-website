@@ -7,7 +7,7 @@ const footer = () => {
     return (
         <div className={styles.main}>
             <div className={styles.left}>
-                <p className={styles.footxt}>📞 0917 798 2277 | ✉️ sales@linkhealth-solutions.com</p>
+                <p className={styles.footxt}>📞 undefined | ✉️ sales@linkhealth-solutions.com</p>
                 <p className={styles.footxt}>📍 Unit 1102, Park Centrale Building, Cebu IT Park, Cebu City, Philippines 6000</p>
             </div>
             <div className={styles.right}>
