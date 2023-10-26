@@ -1,0 +1,38 @@
+.main {
+    background-color: var(--col_3);
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.main div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left {
+    padding-left: 2em;
+    width: 70%;
+    align-items: start;
+}
+
+.right {
+    width: 30%;
+    padding-right: 2em;
+    align-items: end;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1em;
+    color: var(--text_3);
+}
+
+.footxt {
+    font-weight: normal;
+    font-size: 1em;
+    color: var(--text_3);
+    padding: .2em 0 .2em 0;
+}
