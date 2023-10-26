@@ -1,0 +1,43 @@
+.hidden {
+    display: none !important;
+}
+
+.privpol {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    position: fixed;
+    bottom: 0;
+
+    width: 100vw;
+    height: 3em;
+    background-color: var(--col_2);
+}
+
+.text {
+    font-style: italic;
+    margin-left: 3em;
+}
+
+.but {
+    margin-right: 3em;
+    cursor: pointer;
+
+    background: var(--col_3);
+    color: var(--text_3);
+
+    font-weight: bold;
+    padding: 0.5em 2em 0.5em 2em;
+
+    border: none;
+    border-radius: 10px;
+
+    transition: color 200ms ease, background 200ms ease;
+}
+
+.but:hover {
+    color: var(--text_2);
+    background: var(--col_5);
+}

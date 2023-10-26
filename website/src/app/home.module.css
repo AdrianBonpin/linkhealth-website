@@ -1,0 +1,71 @@
+.content {
+    width: 100vw;
+    height: 93vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: var(--gradient_3);
+}
+
+.banner {
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.maintext {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h2txt,
+.h3txt {
+    padding: .3em;
+}
+
+.h2txt {
+    font-size: 2.3em;
+    font-weight: bold;
+    color: var(--text_2);
+}
+
+.h3txt {
+    font-size: 1.3em;
+    font-style: italic;
+    color: var(--text_2);
+}
+
+.inquire {
+    padding: 2em;
+}
+
+.inquire button {
+    cursor: pointer;
+
+    background: var(--gradient_1);
+    color: var(--text_3);
+
+    font-size: 2.5em;
+    font-weight: bold;
+    padding: 0.5em 2em 0.5em 2em;
+
+    border: none;
+    border-radius: 10px;
+
+    transition: color 200ms ease, background 200ms ease;
+}
+
+.inquire button:hover {
+    color: var(--text_2);
+    background: var(--gradient_2);
+}

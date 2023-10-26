@@ -3,7 +3,6 @@
     height: 7vh;
     display: flex;
     flex-direction: row;
-    position: fixed;
 
     border-bottom: 2px solid var(--col_3);
 }
